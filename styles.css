@@ -88,3 +88,32 @@ footer a:hover {
 
 /* right */
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00000080;
+  padding: 10px;
+}
+
+nav {
+  margin: 10px;
+}
+
+nav button {
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+}
+
+.signup {
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.login {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+}
