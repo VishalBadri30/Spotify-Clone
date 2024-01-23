@@ -106,14 +106,62 @@ nav button {
   width: 15px;
 }
 
+nav button:hover {
+  cursor: not-allowed;
+}
+
 .signup {
-  padding: 10px;
+  width: 70px;
+  padding: 8px;
   border: none;
-  font-size: 1rem;
+  border-radius: 18px;
+  color: grey;
+}
+
+.signup:hover {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .login {
-  font-size: 1rem;
-  padding: 10px;
+  width: 70px;
+  padding: 8px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.login:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* spotifyPlaylist section */
+
+.spotifyPlaylist {
+  padding: 12px;
+}
+
+.cardContainer {
+  display: flex;
+}
+
+.card {
+  width: 150px;
+  border: none;
   border-radius: 20px;
+  background-color: rgb(24, 24, 24);
+  padding: 15px;
+  margin: 24px 10px;
+}
+
+.card:hover {
+  background-color: rgb(56, 55, 55);
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: contain;
 }
