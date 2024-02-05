@@ -31,3 +31,24 @@
 .invert {
   filter: invert(1);
 }
+
+/* Define the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333; /* Set the background color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; /* Set the color of the scrollbar handle */
+  border-radius: 6px; /* Set the border radius of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Set the color of the scrollbar handle on hover */
+}
